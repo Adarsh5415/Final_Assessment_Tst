@@ -20,7 +20,7 @@ function PersonDetails() {
             <p>Name: {user.name}</p>
             <p>Email: {user.email}</p>
             
-          </li>
+          </li> 
         ))}
       </ul>
     </div>
