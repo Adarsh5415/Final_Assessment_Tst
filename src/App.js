@@ -10,7 +10,7 @@ const App = () => {
 
   useEffect(() => {
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', 'https://jsonplaceholder.typicode.com/users/1', true);
+    xhr.open('GET', 'https://jsonplaceholder.typicode.com/users', true);
     xhr.onload = () => {
       if (xhr.status === 200) {
         const responseData = JSON.parse(xhr.responseText);
